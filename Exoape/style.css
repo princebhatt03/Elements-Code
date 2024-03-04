@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+/* #main {
+  width: 100%;
+  height: 200%;
+  background-color: cyan;
+} */
+#page1 {
+  width: 100%;
+  min-height: 280vh;
+  opacity: 0.9;
+  background: url(img/backIMG1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar ul {
+  width: 100%;
+  list-style: none;
+}
+.navbar li {
+  width: auto;
+  float: left;
+  position: relative;
+}
+.navbar a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 12px 20px;
+  transition: all ease 0.3s;
+  text-align: center;
+}
+.navbar img {
+  width: 120px;
+  height: 80px;
+}
+.nav2 {
+  display: flex;
+}
+#page1 h2 {
+  position: absolute;
+  top: 220%;
+  padding: 10px 12px;
+  left: 6%;
+  font-weight: lighter;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: white;
+}
+#page1 h3 {
+  position: absolute;
+  bottom: 20%;
+  padding: 10px 12px;
+  left: 6%;
+  font-weight: lighter;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: white;
+}
+.text {
+  left: 8%;
+  top: 250%;
+  display: inline-block;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  position: absolute;
+  color: white;
+  cursor: pointer;
+}
+.text::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.text:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.text1 {
+  text-align: center;
+  left: 65%;
+  text-decoration: none;
+  top: 250%;
+  display: inline-flex;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  position: absolute;
+  color: white;
+  cursor: pointer;
+}
+.text1::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.text1:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.text2 {
+  left: 65%;
+  text-decoration: none;
+  top: 254%;
+  text-align: center;
+  display: inline-flex;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  position: absolute;
+  color: white;
+  cursor: pointer;
+}
+.text2::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.text2:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.text3 {
+  left: 65%;
+  text-decoration: none;
+  text-align: center;
+  top: 258%;
+  display: inline-flex;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  position: absolute;
+  color: white;
+  cursor: pointer;
+}
+.text3::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.text3:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.text4 {
+  left: 65%;
+  text-decoration: none;
+  top: 262%;
+  text-align: center;
+  display: inline-flex;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  position: absolute;
+  color: white;
+  cursor: pointer;
+}
+.text4::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.text4:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.text5 {
+  left: 80%;
+  text-decoration: none;
+  top: 250%;
+  text-align: center;
+  display: inline-flex;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  position: absolute;
+  color: white;
+  cursor: pointer;
+}
+.text5::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.text5:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.text6 {
+  left: 80%;
+  text-decoration: none;
+  top: 254%;
+  text-align: center;
+  display: inline-flex;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  position: absolute;
+  color: white;
+  cursor: pointer;
+}
+.text6::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.text6:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#page1 h1 {
+  position: absolute;
+  top: 100%;
+  padding: 10px 12px;
+  left: 6%;
+  font-size: 200px;
+  white-space: 1px;
+  font-weight: bold;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: white;
+}
